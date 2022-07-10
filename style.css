@@ -1,0 +1,75 @@
+*{
+    background-color: black;
+    margin: 0%;
+    color: white; 
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+header h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+.list-items{
+    margin-top: 17px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+.intro{
+    text-align: center;
+    margin-top: 38px;
+    font-size: 26px;
+}
+.place{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px
+}
+img{
+    height: 560px;
+    margin-left: 100px
+}
+.objective{
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.objective h2{
+    align-items: initial;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.marksheet{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    color: rgb(181, 238, 238);
+}
+
+.more{
+    display: flex;
+    flex-direction: row;
+    margin-top: 131px;
+    justify-content: center;
+    gap: 118px;
+    margin-left: -190px;
+    font-size: 20px;
+}
+.more h1{
+    padding: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.skills{
+    padding-left: 50px;
+    align-items: initial;
+}
